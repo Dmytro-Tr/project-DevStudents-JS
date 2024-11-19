@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"index.js","sources":["../src/js/faq.js"],"sourcesContent":["new Accordion('.accordion-container');\n"],"names":[],"mappings":"0uBAAA,IAAI,UAAU,sBAAsB"}
