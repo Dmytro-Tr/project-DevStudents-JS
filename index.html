@@ -14,7 +14,7 @@
     <script type="module" crossorigin src="/project-DevStudents-JS/index.js"></script>
     <link rel="modulepreload" crossorigin href="/project-DevStudents-JS/assets/vendor-Czw9bCZh.js">
     <link rel="stylesheet" crossorigin href="/project-DevStudents-JS/assets/vendor-DLkfUfUw.css">
-    <link rel="stylesheet" crossorigin href="/project-DevStudents-JS/assets/index-C7GcTp20.css">
+    <link rel="stylesheet" crossorigin href="/project-DevStudents-JS/assets/index-Dgcmatj1.css">
   </head>
   <body>
     <header class="header">
@@ -41,7 +41,14 @@
             <a class="nav__link" href="#work">Contacts</a>
           </li>
         </ul>
+
+        <div class="header__btn-mobile">
+          <a class="btn order__btn" href="#work">Order the project</a>
+        </div>
       </nav>
+      <div class="header__btn">
+        <a class="btn order__btn" href="#work">Order the project</a>
+      </div>
 
       <div class="header__toggle-btn" id="menuBtn">
         <span class="header__toggle-icon"></span>
@@ -54,114 +61,89 @@
 
 
     <main>
-      <section class="section">
-        <div class="swiper hero__slider">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide" data-swiper-autoplay="3000">
-              <section class="hero">
-  <div class="container hero_container">
-    <h1 class="hero__title">
-      Hello, I am <span class="hero__text-color">Fullstack developer</span>
-    </h1>
-    <div class="hero__tab-wrapper">
-      <div class="hero__img-wrapper">
-        <picture>
-          <source
-            media="(max-width:767px)"
-            srcset="/project-DevStudents-JS/assets/hero-v5-mob-1x-mye_wMNI.jpg 1x, /project-DevStudents-JS/assets/hero-v5-mob-2x-C0pTIWM2.jpg 2x"
-          />
-          <source
-            media="(max-width:1279px)"
-            srcset="/project-DevStudents-JS/assets/hero-v5-tab-1x-RWQeR7vL.jpg 1x, /project-DevStudents-JS/assets/hero-v5-tab-2x-Dl5RIOqq.jpg 2x"
-          />
-          <source
-            media="(min-width:1280px)"
-            srcset="/project-DevStudents-JS/assets/hero-v5-desc-1x-DCjcuZXz.jpg 1x, /project-DevStudents-JS/assets/hero-v5-desc-2x-CsdAOQnp.jpg 2x"
-          />
-          <img
-            class="hero__img"
-            src="/project-DevStudents-JS/assets/hero-v5-mob-2x-C0pTIWM2.jpg"
-            alt="Fullstack developer photo"
-            width="488"
-          />
-        </picture>
-      </div>
-      <p class="hero__text p-caption">
-        I work with people all over the world to create
-        <span class="hero__text-color">impressive</span> and
-        <span class="hero__text-color">functional websites</span> that reflect
-        each client's unique personality.
-      </p>
-      <a href="#work" class="hero__btn tab_btn">
-        <span class="hero__btn-content p-caption">
-          <svg width="28" height="14">
-            <use href="/project-DevStudents-JS/assets/icons-CYC6FQL3.svg#icon-arr-long"></use>
-          </svg>
-          Order the project
-        </span>
-      </a>
-    </div>
-  </div>
-</section>
 
-            </div>
-            <div class="swiper-slide" data-swiper-autoplay="3000">
-              <div class="v-hero">
+
+      </section>
+      <section class="hero">
   <div class="container">
-    <div class="v-hero__content">
-      <div class="v-hero__top">
-        <div class="v-hero__title">
-          Hello,&nbsp;I&nbsp;am
-          <span class="text__color">Fullstack developer</span>
+    <div class="hero__content">
+      <h1 class="hero__title">
+        Hello, I am <span class="text__color">Fullstack developer</span>
+      </h1>
+      <div class="hero__tab-wrapper">
+        <div class="hero__img-wrapper">
+          <picture>
+            <source
+              media="(max-width:767px)"
+              srcset="/project-DevStudents-JS/assets/hero-v5-mob-1x-mye_wMNI.jpg 1x, /project-DevStudents-JS/assets/hero-v5-mob-2x-C0pTIWM2.jpg 2x"
+            />
+            <source
+              media="(max-width:1279px)"
+              srcset="/project-DevStudents-JS/assets/hero-v5-tab-1x-RWQeR7vL.jpg 1x, /project-DevStudents-JS/assets/hero-v5-tab-2x-Dl5RIOqq.jpg 2x"
+            />
+            <source
+              media="(min-width:1280px)"
+              srcset="/project-DevStudents-JS/assets/hero-v5-desc-1x-DCjcuZXz.jpg 1x, /project-DevStudents-JS/assets/hero-v5-desc-2x-CsdAOQnp.jpg 2x"
+            />
+            <img
+              class="hero__img"
+              src="/project-DevStudents-JS/assets/hero-v5-mob-2x-C0pTIWM2.jpg"
+              alt="Fullstack developer photo"
+              width="488"
+            />
+          </picture>
         </div>
-        <div class="v-hero__img">
-          <img
-            srcset="/project-DevStudents-JS/assets/hero-v2-desc-1x-I-5GydBJ.jpg 1x, /project-DevStudents-JS/assets/hero-v2-desc-2x-DtOXfki9.jpg 2x"
-            src="../images/hero/hero-v2-desc.jpg"
-            alt="fullstack photo"
-          />
-        </div>
-      </div>
-      <div class="v-hero__bottom">
-        <a href="#work" class="hero__btn">
-          <span class="hero__btn-content p-caption">
-            <svg width="28" height="14">
-              <use href="/project-DevStudents-JS/assets/icons-CYC6FQL3.svg#icon-arr-long"></use>
-            </svg>
-            Order the project
-          </span>
-        </a>
-        <p class="p-caption v-hero__description">
+        <p class="hero__description p-caption">
           I work with people all over the world to create
           <span class="text__color">impressive</span> and
           <span class="text__color">functional websites</span> that reflect each
-          client’s unique personality.
+          client's unique personality.
         </p>
       </div>
     </div>
   </div>
-</div>
+  <div class="container-fluid">
+    <ul class="social__list">
+      <li class="social__item">
+        <a
+          href="https://www.instagram.com/goitclub/"
+          class="social__link"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Instagram</a
+        >
+      </li>
+      <li class="social__item">
+        <a
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="social__link"
+          >Facebook</a
+        >
+      </li>
+      <li class="social__item">
+        <a
+          href="https://www.linkedin.com/school/goit-start-your-career-in-it"
+          class="social__link"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Linkedin</a
+        >
+      </li>
+      <li class="social__item">
+        <a
+          href="https://github.com/olexiy-kireyko/project-DevStudents-JS"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="social__link"
+          >GitHub</a
+        >
+      </li>
+    </ul>
+  </div>
+</section>
 
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid">
-          <ul class="social__list">
-            <li class="social__item">
-              <a href="#" class="social__link">Instagram</a>
-            </li>
-            <li class="social__item">
-              <a href="#" class="social__link">Facebook</a>
-            </li>
-            <li class="social__item">
-              <a href="#" class="social__link">Linkedin</a>
-            </li>
-            <li class="social__item">
-              <a href="#" class="social__link">GitHub</a>
-            </li>
-          </ul>
-        </div>
-      </section>
       <section class="about-me" id="about">
   <div class="container">
     <div class="about-me__container">
@@ -694,7 +676,7 @@
           required
         ></textarea>
 
-        <button class="form__button" type="submit">send message</button>
+        <button class="btn form__btn" type="submit">send message</button>
       </form>
 
       <div class="work-together__modal-part"></div>
